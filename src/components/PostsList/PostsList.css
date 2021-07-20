@@ -1,0 +1,43 @@
+.posts-wrapper {
+    max-height: 85vh;
+    width: 35vw;
+    background: white;
+    padding: 20px
+    
+}
+.posts-items-wrapper {
+    max-height: 70vh;
+    overflow-y: auto;
+    padding-right: 20px
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+h3 {
+    color: #333;
+    font-weight: bold;
+    font-size: 2.5vh;
+}
+h5.add-item {
+    color: #74C5F4;
+    font-weight: bold;
+    font-size: 2vh;
+    display: flex;
+    align-items: center;
+}

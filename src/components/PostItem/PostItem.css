@@ -1,0 +1,42 @@
+.post-wrapper {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 9px 6px -2px rgba(0, 0, 0, 0.315);
+    margin-top: 20px;
+    background: white;
+    transition: all 0.3s ease-in
+}
+
+.post-wrapper:hover {
+    background: rgba(51, 51, 51, 0.096)
+}
+
+.left-container {
+    display: flex;
+    align-items: center;
+}
+
+.right-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.state-wrapper {
+    margin-left: 30px;
+    text-align: center;
+}
+
+.image {
+    display: block;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+
+.changed {
+    border: 2px solid #4C98BF;
+}
